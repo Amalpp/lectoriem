@@ -1,0 +1,129 @@
+
+.Navbar {
+    background-color: rgb(240, 235, 223);
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex
+
+}
+.Navbar .logo {
+    color: rgb(66, 36, 8);
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.Navbar .leftSide {
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+.Navbar .leftSide .links {
+    max-height: 50px;
+
+}
+.Navbar .leftSide .links a {
+    text-decoration: none;
+    color: rgb(58, 30, 13);
+    font-size: 20px;
+    margin-left: 40px;
+    
+}
+.Navbar .leftSide button {
+    display: none;
+    margin-left: 20px;
+}
+.Navbar .leftSide #hidden {
+    display: flex;
+    
+}
+
+
+.Navbar .rightSide {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 25px;
+
+}
+.rightSide menuitem {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 15px;
+    justify-content: flex-end;
+
+}
+
+.rightSide input {
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    
+    color: black;
+}
+.rightSide button {
+    height: 30px;
+    width: 70px;
+    font-size: 16px;
+
+
+}
+button:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1090px){
+    .Navbar .leftSide .links a {
+        font-size: 15px;
+
+    }
+}
+@media only screen and (max-width:853px){
+    .Navbar .leftSide .links a {
+        font-size: 10px;
+
+    }
+}
+@media only screen and (max-width:747px){
+    .Navbar .leftSide button {
+        display: flex;
+    }
+    .Navbar .leftSide .links {
+        display: none;
+
+    }
+    .Navbar .leftSide #hidden {
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        height: 230px;
+        max-height: 230px;
+        width: 100%;
+        background-color: rgb(240, 235, 223);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Navbar .leftSide #hidden a {
+         margin: 10px;
+         font-size: 20px;
+
+
+
+
+    }
+}

@@ -1,0 +1,11 @@
+.Form.Group{
+    width: min-content;
+    background-color: antiquewhite;
+}
+.sectionHead{
+    float: left;
+    font-weight: 500;
+    margin-left: 2vw;
+    margin-top: 1.3rem;
+    font-size: 14px;
+}

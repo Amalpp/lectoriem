@@ -1,0 +1,33 @@
+.outerline {
+    height: 04px;
+    width: 4rem;
+    background-color: rgb(172, 107, 23);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-heading {
+    color: rgb(61, 41, 3);
+    font-size: 20px;
+    text-align: center;
+
+}
+.form {
+   
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 30%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.formControl{
+    width: 35px;
+    height: 20px;
+
+}
+.content{
+    justify-content: center;
+    align-items: center;
+}

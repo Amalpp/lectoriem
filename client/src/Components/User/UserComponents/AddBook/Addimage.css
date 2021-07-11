@@ -1,0 +1,22 @@
+.hTag{
+    margin-top: 10px;
+    color: rgb(85, 32, 32);
+    text-align: 50px;
+  
+    margin-bottom: 20px;
+}
+.outerline {
+    height: 04px;
+    width: 4rem;
+    background-color: rgb(172, 107, 23);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    margin-left: .2rem;
+}
+/* .inputTag{
+    text-align: 150px;
+    align-items: center;
+    margin-left: 150px;
+    justify-content: center;
+} */

@@ -1,0 +1,25 @@
+
+.row {
+    display: flex;
+    justify-content:space-around ;
+    margin: 18px  0px;
+    border-bottom: 2px solid gray;
+
+}
+.activity {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item {
+    width: 30%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}

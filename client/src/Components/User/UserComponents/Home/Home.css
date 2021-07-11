@@ -1,0 +1,72 @@
+/* .row {
+    margin-left: 40px;
+    color: rgb(22, 3, 3);
+    margin-top: 40px;
+ 
+
+}
+.posters {
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster {
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+
+.section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.main-heading {
+    color: rgb(61, 41, 3);
+    font-size: 20px;
+    
+
+}
+.outerline {
+    height: 04px;
+    width: 4rem;
+    background-color: rgb(172, 107, 23);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card {
+    max-width: 500px;
+    display: flex;
+    margin:1rem;
+    max-height: 250px;
+  
+} */
+
+
+.ads{
+    margin-right: -1rem;
+}
+.adContainer{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.adContainer::-webkit-scrollbar{
+    display: none;
+}
+.adContainer:first-child { margin-left: -1.5rem; }
+@media only screen and (max-width: 425px){
+    .adContainer{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
